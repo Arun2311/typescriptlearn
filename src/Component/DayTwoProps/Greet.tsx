@@ -13,6 +13,10 @@ type inputprops ={
   btnclick :(e : React.ChangeEvent<HTMLInputElement>) => void
 }
 
+type STYLE ={
+  btnclick :React.CSSProperties
+}
+
 
 export const Greet = (props:propstype) => {
 
